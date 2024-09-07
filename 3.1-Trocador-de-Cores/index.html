@@ -1,18 +1,36 @@
+<!-- Define o tipo de documento como HTML5 e o idioma como Português do Brasil -->
 <!DOCTYPE html>
 <html lang="pt-BR">
+
+<!-- Define a cabeça do documento, onde são incluídas as metainformações -->
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trocador de Cores</title>
+  <!-- Define o conjunto de caracteres utilizado no documento como UTF-8 -->
+  <meta charset="UTF-8">
+  
+  <!-- Define a viewport do documento, que é a área visível do usuário -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Define o título do documento, que é exibido na barra de título do navegador -->
+  <title>Trocador de Cores</title>
 
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+  <!-- Liga o arquivo de estilo CSS ao documento -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Liga o arquivo de script JavaScript ao documento e define que ele deve ser 
+   carregado após o documento ser carregado -->
+  <script src="script.js" defer></script>
 </head>
-<body>
-    <div id="trocador-cores" style="background-color: #868ea8;">
-        <h2>Trocador de Cores</h2>
 
-        <button id="mudarCor">Mudar Cor</button>
-    </div>
+<!-- Define o corpo do documento, onde são incluídos os elementos visíveis -->
+<body>
+  <!-- Define um contêiner com um gradiente de cores como fundo -->
+  <div id="trocador-cores" style="background: linear-gradient(90deg,
+   #255360 0%, #807bae 100%)">
+    <!-- Define um título para o contêiner -->
+    <h2>Trocador de Cores</h2>
+
+    <!-- Define um botão para mudar a cor -->
+    <button id="mudarCor">Mudar Cor</button>
+  </div>
 </body>
 </html>

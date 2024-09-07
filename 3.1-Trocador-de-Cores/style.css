@@ -11,14 +11,14 @@ body{
     justify-content: center;
     align-items: center;
     color: #fff;
+    margin: 0 auto;
 }
 
 #trocador-cores{
     margin: 20px;
-    border: 2px solid #fff;
     padding: 20px;
-    border-radius: 20px;
-    box-shadow: 10px 10px 20px #000;
+    border-radius: 50px;
+    box-shadow: 10px 10px 30px #000;
     text-align: center;
 }
 
